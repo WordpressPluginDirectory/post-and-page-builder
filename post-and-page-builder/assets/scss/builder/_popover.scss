@@ -1,0 +1,11 @@
+.draggable-tools-imhwpb {
+	&:not(.has-font-support) li[data-action="Font"] {
+		display: none;
+	}
+	&:not(.has-advanced-support) .content-popover-imhwpb li[data-action="Advanced"] {
+		display: none;
+	}
+	&:not(.has-table-support) .content-popover-imhwpb li[data-action="AdvancedCell"] {
+		display: none;
+	}
+}

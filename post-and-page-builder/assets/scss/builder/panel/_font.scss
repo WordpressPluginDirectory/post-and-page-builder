@@ -1,0 +1,43 @@
+/*************** Text Settings Panel ********************/
+.rtl {
+	.boldgrid-control.typography-control {
+		.font-color-control {
+			.value {
+				left: 0;
+				right: auto;
+			}
+		}
+		.directional-control {
+			.units {
+				left: 0;
+				right: auto;
+			}
+		}
+	}
+}
+.boldgrid-control.typography-control {
+	padding-bottom: 15px;
+
+	.bg-control-switch label,
+	.font-color-control .control-name,
+	> h5 {
+		font-weight: 500;
+	}
+
+	> h3 {
+		display: none;
+	}
+
+	.font-color-control .bg-color-picker-control {
+		display: none !important;
+	}
+
+	.bg-select-title {
+		vertical-align: sub;
+	}
+
+	.selection__rendered {
+		line-height: 37px;
+		font-size: 25px;
+	}
+}
