@@ -786,6 +786,17 @@
 }
 
 /*************** Icon Panel ********************/
+.rtl .editor-panel[data-type=icon] .search {
+  position: fixed;
+  width: 335px;
+  z-index: 2;
+}
+
+.rtl .editor-panel[data-type=icon] .search .search-input {
+  width: calc(100% - 40px);
+  margin-right: 20px;
+}
+
 .rtl .editor-panel[data-type=icon] .panel-selection {
   text-align: right;
 }
@@ -798,6 +809,17 @@
   width: 335px;
 }
 
+.editor-panel[data-type=icon] .search {
+  position: fixed;
+  width: 335px;
+  z-index: 2;
+}
+
+.editor-panel[data-type=icon] .search .search-input {
+  width: calc(100% - 40px);
+  margin-left: 20px;
+}
+
 .editor-panel[data-type=icon] .back {
   margin-bottom: 0;
 }
@@ -806,6 +828,10 @@
   width: 123px;
   height: 42px;
   text-align: left;
+}
+
+.editor-panel[data-type=icon] .panel-body ul.icon-controls {
+  padding-top: 35px;
 }
 
 .editor-panel[data-type=icon] .panel-body .presets .fa {
@@ -1118,17 +1144,17 @@
   display: block;
 }
 
-.editor-panel[data-type=background] .add-image-controls {
+.editor-panel[data-type=background] .add-image-controls:not(.is-primary) {
   padding: 0;
   background-color: #32373c;
   color: #fff;
 }
 
-.editor-panel[data-type=background] .add-image-controls:hover {
+.editor-panel[data-type=background] .add-image-controls:not(.is-primary):hover {
   background-color: #555d66;
 }
 
-.editor-panel[data-type=background] .add-image-controls a {
+.editor-panel[data-type=background] .add-image-controls:not(.is-primary) a {
   text-decoration: none;
   position: relative;
   top: 17px;
