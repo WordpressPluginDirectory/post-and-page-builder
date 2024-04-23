@@ -1,23 +1,23 @@
 [
     {
         "name": "boldgrid/library",
-        "version": "2.13.11",
-        "version_normalized": "2.13.11.0",
+        "version": "2.13.13",
+        "version_normalized": "2.13.13.0",
         "source": {
             "type": "git",
             "url": "https://github.com/BoldGrid/library.git",
-            "reference": "ec1da4d4a6029968407b8f04c61417af4f5e4487"
+            "reference": "5fa3dd1a7370f0ae92d9fa6db948f1760d47d7ef"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/BoldGrid/library/zipball/ec1da4d4a6029968407b8f04c61417af4f5e4487",
-            "reference": "ec1da4d4a6029968407b8f04c61417af4f5e4487",
+            "url": "https://api.github.com/repos/BoldGrid/library/zipball/5fa3dd1a7370f0ae92d9fa6db948f1760d47d7ef",
+            "reference": "5fa3dd1a7370f0ae92d9fa6db948f1760d47d7ef",
             "shasum": ""
         },
         "require-dev": {
             "yoast/phpunit-polyfills": "^1.0"
         },
-        "time": "2023-05-23T20:04:34+00:00",
+        "time": "2024-04-19T15:37:29+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
