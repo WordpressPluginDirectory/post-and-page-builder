@@ -2950,6 +2950,14 @@ body.mce-fullscreen.boldgrid-zoomout #mce_fullscreen_actions {
   display: none;
 }
 
+.mce-inline-toolbar-grp.mce-container div.mce-flow-layout-item > div {
+  display: block;
+}
+
+.mce-inline-toolbar-grp.mce-container div.mce-flow-layout-item > div .ui-autocomplete-input {
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # Post.php Modifications
 --------------------------------------------------------------*/
