@@ -2,9 +2,9 @@
 Contributors: boldgrid, rramo012, imh_brad, joemoto, timph, bgnicolepaschen, jamesros161
 Tags: boldgrid, page builder, drag and drop, tinymce, editor, landing page
 Requires at least: 4.7
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.4
-Stable tag: 1.27.5
+Stable tag: 1.27.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,6 +103,10 @@ Bugs can be reported either in the [WordPress support forum](https://wordpress.o
 
 The Post and Page Builder is open source software. Join in on our [GitHub repository](https://github.com/BoldGrid/post-and-page-builder/).
 
+= How can I report security bugs? =
+
+You can report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team help validate, triage and handle any security vulnerabilities. [Report a security vulnerability.](https://patchstack.com/database/vdp/post-and-page-builder)
+
 == Installation ==
 
 = Minimum Requirements =
@@ -133,6 +137,18 @@ WordPress Editor.
 7. Adding Icons.
 
 == Changelog ==
+
+= 1.27.9 =
+* Security Update: Resolved vulnerabilities reported by patchstack [#643](https://github.com/BoldGrid/post-and-page-builder/pull/643)
+
+= 1.27.8 =
+* Bug Fix: Fix _load_textdomain_just_in_time notices [#640](https://github.com/BoldGrid/post-and-page-builder/issues/640)
+
+= 1.27.7 =
+* Security Update: Resolved a security vulnerability reported by WordFence [#637](https://github.com/BoldGrid/post-and-page-builder/issues/637)
+
+= 1.27.6 =
+* Security Update: Resolved a security vulnerability reported by PatchStack [#635](https://github.com/BoldGrid/post-and-page-builder/issues/635)
 
 = 1.27.5 =
 * Bug Fix: Table Borders do not change with palette [#609](https://github.com/BoldGrid/post-and-page-builder/issues/609)
